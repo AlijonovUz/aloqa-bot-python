@@ -2,7 +2,7 @@ from telebot import TeleBot
 from telebot.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
-bot = TeleBot("7485312827:AAGI7KoGkPfBCUreZFiaHqA69zBymg6BFJc")
+bot = TeleBot("BOT TOKEN")
 admin = "6150504681"
 
 @bot.message_handler(commands=['start', 'help'])
@@ -113,3 +113,4 @@ def step(message: Message):
         pass
 
 bot.infinity_polling()
+
